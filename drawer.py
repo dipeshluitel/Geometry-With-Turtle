@@ -1,4 +1,3 @@
-import turtle
 import turtle as t
 
 
@@ -11,6 +10,6 @@ def draw(sides, angle, no_of_sides):
         drawer.right(angle)
 
 
-turtle.speed(20)
+t.speed(20)
 screen = t.Screen()
 screen.listen()

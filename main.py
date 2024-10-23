@@ -12,7 +12,7 @@ if no_of_sides != 0:
     perimeter = int(input("Input The perimeter of geometric shape: "))
     print(f"The perimeter of geometric shape is {perimeter}")
     lengths = perimeter / no_of_sides
-    print(f"\n{lengths} will be the number of sides")
+    print(f"\n{lengths} will be the length of one side")
     angle = 360 / no_of_sides
 
     draw(lengths, angle, no_of_sides)
